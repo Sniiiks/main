@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.div_section_links{
+    padding-left: 0.6%;
+    margin-top: 0px;
+    background-color: #42b773;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fa-brands:not(:nth-child(6)){
+    
+    font-size: 24px;
+    color: #fff;
+}
+
+
+
+
+.a_links{
+    margin-right: 2px;
+    border-radius: 100%;
+    transition: all 0.3s;
+    border-radius: 50%;
+    padding: 0.8%;
+}
+.a_links:hover{
+    transition: transform 0.3, background-color 0.2s;
+    background-color: #b6c062;
+}
+.face{
+    padding: 1.05%  1.4%;
+}
+.xtwitter{
+    padding:  1.05%;
+}
+.google{
+    padding:  1.05% 0.85%; 
+}
+.insta{
+    padding:  1.05% 1.15%;
+}
+.skype{
+    padding:  1.05% 1.15%;
+}
+.val{
+    padding:  1.05% 1.15%;
+}
+
+
+.contacts_etc{
+    background-color: #121212;
+    padding-top: 3.8%;
+    
+}
+.h2_title{
+    margin-left: 1.3%;
+    color:#42464f;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'ubuntu', sans-serif;
+    text-align: center;
+    
+}
+.p_phone:hover .fa-solid{  
+    transition: transform 0.3s, color 0.3s;
+    color: #42464f;
+}
+.p_phone .fa-solid{
+    padding-left: 18.5%;
+}
+
+.div_a_numb{
+    padding-right: 1.1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.p_address{
+    
+    
+    font-size: 13px;
+    
+    font-weight: 400;
+    
+    font-family: 'ubuntu', sans-serif;
+    color: #42464f;
+    text-align: center;
+}
+.a_numbers{
+    
+    text-decoration: none;
+}
+.p_phone{
+    margin-top: 22.7%;
+    
+    font-weight: 500;
+    font-size: 20px;
+    color: #42b773;
+    
+    font-family: 'ubuntu', sans-serif;
+    transition: all 0.3s;
+}
+.fa-phone{
+    z-index: 1;
+    transition: all 0.3s;
+    color: #42b773;
+    font: 400 20px/23px "FontAwesome";
+}
+
+.fa-blender-phone{
+    z-index: 1;
+    transition: all 0.3s;
+    color: #42b773;
+    font: 400 20px/23px "FontAwesome";
+}
+
+.p_phone:hover{
+    
+    transition: transform 0.3s, color 0.3s;
+    color: #42464f;
+
+}
+
+
+
+
+
+
+.div_inputs {
+    font-family: 'ubuntu', sans-serif;
+    margin-top: 3.5%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+    
+    grid-auto-rows: 42px;
+    grid-auto-columns: 369.99px;
+    padding: 0 50%;
+    
+    gap: 30px;
+}
+.div_input{
+    font-family: 'ubuntu', sans-serif;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+.div_input:nth-child(4) .input{
+    resize: none;
+    padding: 10px 10px;
+}
+.div_input .input {
+    padding: 0 10px; 
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: #121212;
+    border-radius: 5px;
+    outline: none;
+    color: #658997;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+.div_input .span_input{
+    font-family: 'ubuntu', sans-serif;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 14px;
+    pointer-events: none;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.25);
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.div_input .input:valid ~ .span_input,
+.div_input .input:focus ~ .span_input{
+    color: #42b773;
+    transform: translateX(14px) translateY(-4.5px);
+    font-size: 0.65em;
+    padding: 0 10px;
+    background:#121212;
+    border-left: 1px solid #42b773;
+    border-right: 1px solid #42b773;
+    letter-spacing: 0.2em;
+}
+.div_input:nth-child(4) .input:valid ~ .span_input,
+.div_input:nth-child(4) .input:focus ~ .span_input{
+    color: #fff;
+    background:#42b773;
+    border-radius: 2px;
+}
+.div_input .input:valid,
+.div_input .input:focus{
+    border: 1px solid #42b773;
+}
+
+
+.div_input .input:not(:nth-child(4)){
+    width: 100%;
+    height: 100%;
+}
+
+.div_input:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.div_input:nth-child(2){    
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.div_input:nth-child(3){
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.div_input:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+.div_input:nth-child(4) .input{
+    font-family: 'ubuntu', sans-serif;
+    width: 1170px;
+    height: 120px;
+}
+.contacts_etc .btn_div{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+ .btn_contacts{
+    cursor: pointer;
+
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 29px;
+    font-weight: 500;
+    width: 200px;
+    color: #fff;
+    border: none;
+    font-family: 'ubuntu', sans-serif;
+    background: #42b773;
+    border-radius: 6px;
+    padding: 10px 20px;
+    transition: all 0.3s;
+    margin-bottom: 15%;
+    
+ }
+
+
+

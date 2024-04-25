@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+.animate--delay{
+    animation-delay: 0.6s;
+}
+.animate--delayy{
+    animation-delay: 0.8s;
+}
+.animate--delayyy{
+    animation-delay: 1s;
+}
+.animate--delayyyy{
+    animation-delay: 2s;
+}
+.animate {
+    
+    animation: slideInLeft 0.7s ease-out;
+    animation-timeline: view() ;
+    
+    animation-range-start: entry;
+    animation-range-end: 50%;
+}
+
+
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slideInLeft {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    
+}
+.div_sector4 {
+    margin-top: 4.9%;
+
+}
+
+.head_divsect4 {
+    gap: 35px;
+    padding-top: 40px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+   
+    
+
+}
+.div_div_div_sect4{
+    padding-top: 10.5%;
+}
+
+.img_sect4 {
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.out_h2_sect4 {
+    align-items: center;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    line-height: 61px;
+    font-size: 34px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'ubuntu', sans-serif;
+    
+}
+
+
+
+
+.fa-solid {
+    z-index: 1000;
+    position: relative;
+    color: #fff;
+    transition: 0.3s;
+    font-size: 60px;
+    width: 60px;
+    height: 60px;
+}
+.fa-solid:hover{
+    color: #ffffff00;
+}
+
+
+.a_sect4{
+    z-index: 1000;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.p_sect4 {
+    z-index: 1000;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 13px;
+    color: #fff;
+    font-family: 'ubuntu', sans-serif;
+    line-height: 1.7;
+}

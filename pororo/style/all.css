@@ -1,0 +1,16 @@
+@import url('vendor/reset.css');
+@import url('components/head.css');
+@import url('components/base.css');
+@import url('components/sector.css');
+@import url('components/sector2.css');
+@import url('components/sector3.css');
+@import url('components/sector4.css');
+@import url('components/sector5.css');
+@import url('components/sector6.css');
+@import url('components/sector7.css');
+@import url('components/sector8.css');
+@import url('components/sector9.css');
+body{
+    background-color: #202124;
+
+}

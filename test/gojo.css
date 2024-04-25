@@ -1,0 +1,77 @@
+
+.izo{
+  display: grid; 
+  margin:100px; 
+  grid-auto-rows: 336px;
+  grid-auto-columns: 325.66px;
+  gap: 30px;
+}
+.ozo:not(:nth-child(4)) img{
+    width: 100% ;
+    height: 100% ;
+}
+.ozo:nth-child(4) img{
+    width: 681px;
+    height: 702px;
+}
+.ozo:first-child{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.ozo:nth-child(2){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.ozo:nth-child(3){
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.ozo:nth-child(4){
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.ozo:nth-child(5){
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.ozo:nth-child(6){
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+img{
+    border-radius: 30px;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    margin: 70px;
+    font-weight: 600;
+    font-size: large;
+    position: relative;
+}
+a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    transform: scaleX(0);
+    transition: transform 0.3s;
+}
+a:hover::after {
+    transform: scale(1);
+}

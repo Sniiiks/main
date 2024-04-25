@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.divsector1{
+
+    overflow: hidden; 
+}
+.divsector12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    margin-top: 16%;
+    color: #fff;
+   padding: 0 11%;
+
+}
+.imgsector1{
+    
+    object-fit: cover;
+    position: absolute;
+    left: -250px; 
+    width: calc(100% + 250px); 
+    height: 100%; }
+.h21sector1{
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 61px;
+    font-size: 35px;
+    font-family: 'ubuntu', sans-serif;
+}
+.h2sector1{
+    font-family: 'ubuntu', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 61px;
+    font-size: 45px;
+}
+.psector1{
+    font-family: 'ubuntu', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 3px;
+    line-height: 1.4rem;
+}
+.button{
+    overflow: hidden;
+    font-family: 'ubuntu', sans-serif;
+    position: relative;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 30px;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #42b773 0%, #a9dc56 100%);
+    background-size: 100%;
+    padding: 18px 60px;
+    border-radius: 6px;
+    border: none;
+    z-index: 1;
+}
+
+
+.button::before{
+    background: linear-gradient(90deg, #42b773 0%, #42b773 100%);
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+    
+}
+.button:hover::before{
+    opacity: 1;
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@keyframes div_sect5_head {
+    from {transform: translateY(0);}
+    to{transform: translateY(-50px)}
+}
+.div_sect5_head{
+    overflow: hidden;
+    
+    animation: div_sector2 0.7s ;
+    animation-timeline: view();
+    animation-range: cover;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+    padding-top: 4%;
+    padding-bottom: 6.5%;
+    background-color: #121212;
+    align-items: center;
+    margin-top: 12%;
+    display: grid;
+    grid-auto-rows: 130px;
+    grid-auto-columns: 600px;
+    row-gap: 38px;
+    padding-left: 10%;
+    
+}
+.div_in_sect5_content{
+    
+    display: flex;
+    justify-content: center;
+
+}
+.div_in_sect5_content:hover .div_img_sect5 {
+    color: #ffffff;
+    background-color: #a9dc56;
+    border: solid #a9dc56;
+}
+.h2_p_sect5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px ;
+    align-items: left;
+}
+.div_in_sect5_content:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.div_in_sect5_content:nth-child(2){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.div_in_sect5_content:nth-child(3){
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.div_in_sect5_content:nth-child(4){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.h2_sector5{
+    cursor: pointer;
+    color: #42b773;
+    font-size: 20px;
+    font-family: 'ubuntu', sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s;
+
+}
+.h2_sector5:hover{
+    color: #c3c8d3;
+    text-decoration: underline;
+
+}
+
+
+.p_sect5{
+    line-height: 2;
+    margin-top: 8px;
+    font-size: 13px;
+    font-family: 'ubuntu', sans-serif;
+    color: #658997;
+}
+
+.div_img_sect5{
+    text-align: center;
+    padding-top: 45px;
+    font-family: 'ubuntu', sans-serif;
+    color: rgba(101, 137, 151, 0.33);
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    border: 3px solid #181c1e;
+    font-size: 35px;
+    font-weight: 400;
+    transition: all 0.3s;
+
+}

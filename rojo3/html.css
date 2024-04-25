@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+.monolit{
+display: flex;
+justify-content: center;
+margin-top: 14rem;
+align-items: center;
+gap: 3REM;
+}
+.roni{
+   background-color: rgb(255, 255, 255);
+width: 12rem;
+
+border-radius: 5px;
+
+}
+img{
+
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
+    max-height: 12rem;
+width: 100%;
+padding-bottom: 0.5rem;
+}
+body{
+    background-color: #fdece9;
+    background-attachment: fixed;
+}
+h2{
+    letter-spacing: 0.0.10rem;
+    box-sizing: border-box;
+    font-family: 'roboto';
+    font-size: 1rem;
+    font-weight: 600;
+ line-height: 2em;
+ text-align: center;
+}
+p{
+    padding-bottom: 1rem;
+    line-height: 2rem;
+    font-size: 0.7rem;
+    text-align: center;
+    font-family: 'roboto';
+    color: rgb(2, 162, 162);
+}

@@ -1,0 +1,82 @@
+<!-- <!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>Омар Арлан</h1>
+<br>
+<img width="300" src="gonjo.jpg" alt="coffin">
+<br>
+
+<h2>Возраст: 17</h2>
+
+
+<h2>Обо мне</h2>
+<ol>
+<li>
+<p>проходил базовое обучение на html, css (без javascript) </p>
+</li>
+<li>
+    <p>увлечение изучение языков</p>
+</li>
+<li>
+    <p>игра на пианино</p>
+</li>
+<li>
+    <p>цель:  знать как работать на фронтенде и бэкенде</p>
+</li>
+</ol>
+<br>
+
+<h2> Опыт Работы</h2>
+<ul>
+    <li>
+        Нет
+    </li>
+</ul>
+<br>
+
+<h2> Образование</h2>
+<ul>
+    <li>
+       Есть наличие среднего образования
+    </li>
+</ul>
+<br>
+<h2>Навыки</h2>
+<ol>
+  <li>
+     <p>HTML CSS </p>
+   </li>
+   <li>
+     <p>PHOTOSHOP</p>
+    </li>
+    <li>
+     <P>MS OFFICE</P>
+    </li>
+</ol>
+<br>
+<H2>Контакты</H2>
+
+<a  href="https://www.instagram.com/arlan_omar_sou/" alt="" target="_blank" style="margin-right: 10px"> 
+    <img width='27' src="instag.png" alt="insta"></a>
+
+<a  href="https://www.instagram.com/arlan_omar_sou/" alt="" target="_blank" style="margin-right: 10px"> 
+    <img width='27' src="face.png" alt="face"></a>
+
+<a  href="https://www.instagram.com/arlan_omar_sou/" alt="" target="_blank"> 
+    <img width='27' src="https://phonoteka.org/uploads/posts/2023-09/1694135913_phonoteka-top-p-znachok-pochti-na-rabochii-stol-vkontakte-25.jpg" alt="mail"></a>
+<br><br><br>
+<form action="https://jsonplaceholder.typicode.com/posts" method="post">
+    <input type="text"  maxlength="20" placeholder="Имя" required name="name"  style="font-size: 11.5px; padding: 7px;">
+    <br> <br>
+    <input type="tel" placeholder="Номер телефона" required name="tel"style="font-size: 11.5px; padding: 7px;"> 
+    <br><br> 
+    <button type="submit"style="font-size: 12px; padding: 7px;"> Отправить</button>
+    <input type="hidden" value='random' name="id">
+</form>
+</body> 
+</html>-->
